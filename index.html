@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Hoja de estilos-->
+    <link rel="stylesheet" href="style.css">
+    <!--Íconos de Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--Letra de google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>To do list</title>
+
+
+</head>
+<body>
+    <!--Tarjeta de tareas (inicio)-->
+    <div class="contenedor">
+        <!--Encabezado de tareas-->
+        <div class="encabezado">
+            <!--Parte de fecha-->
+            <div class="fecha">
+
+            </div>
+            <h1>To do List</h1>
+            <h2>La determinación es la clave para alcanzar cualquier sueño por imposible que parezca.</h2>
+        </div>
+        <!--Termina encabezado-->
+
+        <div class="agregar">
+            <input type="text" id="input" placeholder="Escribe una tarea">
+            <i class="bi bi-plus-circle-dotted"></i>
+        </div>
+        <div class="tareas">
+            <h2>Tareas pendientes</h2>
+            <ul id="tareas">
+                <li id="id" class="elemento">
+                    <i id="" class="bi bi-record-circle"></i>
+                    <p class="tarea-lista">Tarea</p>
+                    <i id="" class="bi bi-trash-fill"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--Termina tarjeta-->
+
+    <!--Main JS-->
+    <script src="main.js"></script>
+</body>
+</html>
